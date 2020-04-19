@@ -33,5 +33,6 @@ class Solution(object):
             maxPrices[i] = max(prices[i]-cur, maxPrices[i-1])
         # print(maxPrices)
         return maxPrices[i]
+        
 a = Solution()
 print(a.maxProfit([7,1,5,3,6,4]))
